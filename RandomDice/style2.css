@@ -1,0 +1,60 @@
+body{
+    background-color:rgb(158, 158, 149);
+}
+h1{
+    width:100%;
+    color:ghostwhite;
+    font-size: 30px;
+    text-align: center; 
+}
+.diceImg{
+    align-items: center;
+    flex-wrap: wrap;
+    width:40%;
+    display:flex; 
+    border: 10px inset rgba(64, 64, 205, 0.752);
+    border-radius: 20px;
+    box-sizing: border-box; 
+    margin:auto; 
+    box-shadow: 10px 10px 3px rgba(64, 64, 205, 0.752);
+    align-items:center; 
+    justify-content:center; 
+
+}
+.diceImg img {
+    width: 100px; 
+    height:100px;
+    padding: 10px; 
+}
+.diceImg img:hover { 
+   animation-name: shaker; 
+   animation-duration: 5s; 
+}
+@keyframes shake {
+    0% {width: 120px;}
+    25% {width: 140px;}
+    50% {width: 160px;}
+    75% {width: 180px;}
+    100% {width: 100px;}
+}
+@keyframes shaker {
+    0% {transform: rotate(90deg);}
+    25% {transform: rotate(180deg);}
+    50% {transform: rotate(270deg);}
+    100% {transform: rotate(360deg);}
+}
+#NumDice{
+    margin-top: 50px; 
+    width: 50%;
+    height: 30p;
+}
+#Labeel{
+    color:ghostwhite;
+    font-size: 30px;;
+    text-align: center; 
+}
+#diceimg img{
+    width: 100px; 
+    height:100px;
+    padding: 10px; 
+}

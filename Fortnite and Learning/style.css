@@ -1,0 +1,26 @@
+htlm { 
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color:rgb(124, 86, 221)
+}
+#map{
+    height :80vh;
+}
+h1{
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 5rem;
+    /* padding: 0 3rem; */
+}

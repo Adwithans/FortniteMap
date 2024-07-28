@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The New Learning</title> 
+    <link rel="stylesheet" type="text/css" href="./style2.css" />
+<body>
+    <h1> This is a Dice roller please select how many dice you want to roll</h1>
+    <div class="diceImg">
+        <img src = "img/1.png" alt="dice1"> 
+        <img src = "img/2.png" alt="dice2">
+        <img src = "img/3.png" alt="dice1"> 
+        <img src = "img/4.png" alt="dice1">
+        <img src = "img/5.png" alt="dice1"> 
+        <img src = "img/6.png" alt="dice1">   
+    </div>    
+    <input type="number" id="NumDice" name="Numdice" min="1" max="10">
+    <Label for="NumDice" id="Labeel">Number of Dice</Label><br> <br>
+    <button onclick= "RollDice()">Roll Dice</button>
+
+    <p1 id="diceResults"></p1>
+    <div id="diceimg"></div>
+</body>
+<script src="./script2.js"></script>
+</html>

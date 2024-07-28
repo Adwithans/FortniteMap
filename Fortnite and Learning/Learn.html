@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> The nindo of Hans</title>
+    <style type = "text/css">
+        a:link{
+            color: green;
+            background-color: transparent;
+        }
+        a:visited{
+            color: aquamarineviolet;
+            background-color: gray;
+        }
+        a:hover{
+            color: red; 
+            background-color: yellow;
+        }        
+        a:active{
+            color: yellow;
+            background-color: red;
+        }
+        nav{
+            background-color: aqua;
+            border: 4px solid black;
+            border-radius: 10px;
+            height: 200px;
+            padding-bottom: 60px;
+            margin: 30px;
+            background-image: url("Image.png"); 
+            background-attachment: fixed;
+            background-position: top center;
+            background-size: cover; 
+        }
+        p{
+
+            padding: 25 px;
+        }
+        nav2{
+            display: block;
+            border: 4px solid blue;
+            border-radius: 10px; 
+            height: 500px;
+            width: 1500px;
+            padding-bottom: 60px; 
+            margin-bottom: 30px; 
+            background-image: url("images.svg");
+            background-position: top center;
+            background-size: cover;
+            background-attachment: fixed; 
+           
+        }
+        th, td{
+            border-bottom: 1px solid black; 
+            border-radius: 10px;
+            text-align: center; 
+            border-style: outset; 
+            padding: 10px; 
+            border-spacing: 30px; 
+        }
+        table{
+            width: 100%;  
+        }
+        tr:nth-child(even){
+            background-color: rgba(150, 212, 212, 0.4)
+        }
+        td:nth-child(even), th:nth-child(even){
+            background-color: rgba(208, 139, 90, 0.557)
+        }
+        tr{
+            border-bottom: 100px solid #000000;   
+        }
+        tr:hover, td:hover, th:hover{
+            background-color:rgba(124, 89, 155, 1)
+        }
+        ul{
+            list-style-type: none;
+            overflow: hidden; 
+            margin: 0; 
+            padding: 0;
+        }
+        li{
+            float: left; 
+            padding: 10px;
+            text-decoration: none;
+        }
+        div{
+            width: 33%; 
+            border: 1px solid black;
+            border-radius: 10px;  
+            background-color: rgba(121, 246, 246, 0.806); 
+            text-align: center;
+        }
+        div:hover{
+            animation: highlight 10s infinite;
+        }
+        @keyframes highlight {
+            0% {
+            background-color: rgba(2, 69, 69, 0.806);
+                } 
+            50% {
+             background-color: gray;
+            }
+        }
+        myContainer{
+            display: flex
+        }
+        mycontainer>div{
+            width:33%
+        }
+        .UK{
+            background-color: rgba(246, 169, 121, 0.806);
+        }
+        .Thailand{
+            background-color: rgba(192, 121, 246, 0.806);
+        }
+        .ThisFrame{
+            margin-top: 50px;
+            width:100%;
+            height: 800px; 
+            background-attachment: fixed;
+            margin-bottom: 100px;
+            border: none; 
+        }
+        .flex-container{
+            display: flex; 
+            width:100%;
+            flex-direction: row;
+            justify-content: space-around;
+            background-color: navajowhite;
+        }
+        .flex-container  div{
+            background-color: red;
+
+        }
+        .Grid-container{
+            margin-top: 50px;
+            display: inline-grid;
+            grid-auto-columns: 50px;
+        }
+        #lname[type = text], #dname[type= text]{
+            width:20%;
+            padding: 12px 1; 
+            border:none; 
+            border-bottom: 5px solid aquamarine;
+            font-size: 16px;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+        } 
+        input[type=text]:focus{
+            border: darkcyan
+        }
+        .submitbutton{
+            background-color:rgb(158, 209, 158); 
+            margin-left: 100px;
+            color:white;
+            border:none;
+            font-size: 20px;
+            border-radius: 10px;
+            padding:5px;
+        }
+        input[type=radio], input[type=checkbox]{
+            margin-left: 50px;
+            margin-bottom: 20px;
+        }
+        
+    
+       
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <li><a href = "index.html">Home</a></li>
+        <li><a href = "#">Bigger people</a>
+            <ul>
+                <li><a href = "#"> Lebron James</li>
+                <li><a href = "#"> Kevin Durant</a></li>
+            </ul>
+        </li>      
+    </nav>
+
+    <nav2>
+        <p1> "this is the body""</p1>" 
+    </nav2>
+    <table> 
+        <tr>
+            <th style = "width: 70%">First Name</th>
+            <th>Last Name</th>
+            <th>Age</th>
+        </tr>
+    <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>
+    </tr>
+    <tr>
+        <td>Niquavous</td>
+        <td>De Shawn</td>
+        <td>25</td>
+    </tr>
+    <tr> 
+        <td> John</td>
+        <td> 
+            <ul> 
+                <li>A black person</dd>
+                <li>A chigger</dt>
+            </ul>
+        </td>
+        <td>
+            He is 30
+        </td>
+    </tr>
+    </table>
+    <pre>
+        Take Me out to the ball game
+            Take me out to the crowd
+    </pre>
+
+    <p><img src="Towers.svg" alt="Smiley face" style="float:left; max-width:100%">
+        <br>The image will float to the right of the text.</p>
+
+    <img src="Image.png" alt = "newMapMarker" usemap="#workspace">
+
+    <map name = workspace>
+
+        <area shape = "rect" coords = "400,300, 700, 450" href = "index.html" target = "_blank" >
+        <area shape = "circ" coords = "1300, 350, 70" onclick="myFunction()">
+
+    </map>
+
+    <script>
+        function myFunction(){
+            window.open("//ixxx.com", '_blank').focus();
+        }
+    </script>
+
+    <mycontainer> 
+        <div class = "Thailand"> 
+            <h2> Thailand</h2>
+            <p1> A country that has a lotta people ngl</p1>
+        </div>
+    
+        <div class = "UK"> 
+            <h2> United Kingdom</h2>
+            <p1> A country that has a couple people ngl</p1>
+        </div>
+    </mycontainer>
+    <iframe class = "ThisFrame" src = "index.html" title ="A fortnite Page"></iframe>
+    
+    <div class = "flex-container">
+
+        <div>1</div>
+        <div>2</div>
+        <div>3></div>
+    </div>
+
+    <div class = "Grid-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3></div>
+    </div>
+
+    <form>
+        <label for="fname">First Name: </label>
+        <input type="text" id="fname" name="firstname" ><br>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lastname:"><br>
+    </form>
+   
+        <p1 id="dname"></p1>
+        <input type="radio" id="html" name="card">
+        <label for="html" >HTML</label><br>
+        <input type="radio" id="CSS" name="card" > 
+        <label for="CSS">CSS</label><br>
+        <button type = "submit" id="mysub">Submit</button> 
+
+    <!-- <fieldset>
+        <legend>Car Selection</legend:>
+    <form> 
+        <label for="cars">Choose a car</label><br>
+        <select id="cars" name="cars" size= "2">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="buggati">Buggati</option>
+        </select>
+    </form>
+</fieldset> -->
+    <script src="./script2.js"></script>
+</body>
+</html>
